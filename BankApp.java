@@ -5,8 +5,8 @@ public class BankApp {
         Bank bank = new Bank();
 
         // Inisialisasi admin dan user
-        Admin admin = new Admin("admin", "Kantorbank", "defaultpassword", bank);
-        User user = new User("Lucifer", "Isekai", "nasabahpass", new UserAccount(123, 1000.0, new User("Lucifer", "Isekai", "nasabahpass", new Account(123, 1000.0))));
+        Admin admin = new Admin("admin", "Kantorbank", "adminpass", bank);
+        User user = new User("lucifer", "isekai", "nasabahpass", new UserAccount(123, 1000.0, new User("lucifer", "isekai", "nasabahpass", new Account(123, 1000.0))));
 
         bank.addAccount(user.getAccount());
 
