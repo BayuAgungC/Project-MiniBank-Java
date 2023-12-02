@@ -10,6 +10,4 @@ public class TransactionManager {
     public void addTransaction(double amount, String date) {
         transactions.add(new Transaction(amount, date));
     }
-
-    // Other methods for managing transactions...
 }
