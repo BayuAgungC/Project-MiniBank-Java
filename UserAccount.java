@@ -9,6 +9,4 @@ public class UserAccount extends Account {
     public User getUser() {
         return user;
     }
-
-    // Tambahan method sesuai kebutuhan
 }
