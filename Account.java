@@ -32,5 +32,4 @@ public class Account {
     public int getAccountNumber() {
         return accountNumber;
     }
-    // Getter methods...
 }
